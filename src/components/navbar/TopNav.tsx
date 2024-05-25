@@ -16,7 +16,7 @@ export default function TopNav() {
           'data-[active=true]:text-yellow-200'],
       }}>
       <NavbarBrand as={Link} href='/'>
-        <GiMatchTip size={40} />
+        <GiMatchTip color="white" size={40} />
         <div className='font-bold text-3xl flex'>
           <span className='text-gray-900'>Next</span>
           <span className='text-gray-200'>Match</span>
